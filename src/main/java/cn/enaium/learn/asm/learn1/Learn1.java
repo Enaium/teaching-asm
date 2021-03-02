@@ -1,6 +1,5 @@
 package cn.enaium.learn.asm.learn1;
 
-import cn.enaium.learn.asm.Test;
 import jdk.internal.org.objectweb.asm.ClassReader;
 
 import java.io.IOException;
@@ -13,7 +12,7 @@ import java.io.IOException;
 public class Learn1 {
     public static void main(String[] args) throws IOException {
         MyClassVisitor myClassVisitor = new MyClassVisitor();
-        ClassReader classReader = new ClassReader(Test.class.getName());
+        ClassReader classReader = new ClassReader(Learn1Test.class.getName());
         classReader.accept(myClassVisitor, 0);
     }
 }
