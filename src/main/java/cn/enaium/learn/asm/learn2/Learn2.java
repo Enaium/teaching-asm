@@ -2,11 +2,9 @@ package cn.enaium.learn.asm.learn2;
 
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
 
 import java.io.FileOutputStream;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 
 import static jdk.internal.org.objectweb.asm.Opcodes.*;
 
